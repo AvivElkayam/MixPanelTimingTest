@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import <Mixpanel/Mixpanel.h>
 @interface ViewController ()
 
 @end
@@ -26,4 +26,8 @@
 }
 
 
+- (IBAction)report:(id)sender {
+    [[Mixpanel sharedInstance]track:@"event event"];
+    [[Mixpanel sharedInstance]flush];
+}
 @end

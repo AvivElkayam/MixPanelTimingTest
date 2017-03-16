@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F462172B57A2D6DDCB0F3D6 /* libPods-MixPanelTimingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68142C37A0D1982C15DEBB46 /* libPods-MixPanelTimingUITests.a */; };
+		6A14DF9BF0B8133F3C37C98D /* libPods-MixPanelTimingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46658B7C2C47D0E500BF8BC2 /* libPods-MixPanelTimingTests.a */; };
+		9DA35FAD047BF6D3AE966766 /* libPods-MixPanelTiming.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7600D72EA41D6414DB7F12A6 /* libPods-MixPanelTiming.a */; };
 		F41CA7CC1E7AD6A400263F69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F41CA7CB1E7AD6A400263F69 /* main.m */; };
 		F41CA7CF1E7AD6A400263F69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F41CA7CE1E7AD6A400263F69 /* AppDelegate.m */; };
 		F41CA7D21E7AD6A400263F69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41CA7D11E7AD6A400263F69 /* ViewController.m */; };
@@ -36,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46658B7C2C47D0E500BF8BC2 /* libPods-MixPanelTimingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MixPanelTimingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48672BD693BD37709F01DCBE /* Pods-MixPanelTimingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixPanelTimingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MixPanelTimingTests/Pods-MixPanelTimingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68142C37A0D1982C15DEBB46 /* libPods-MixPanelTimingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MixPanelTimingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7600D72EA41D6414DB7F12A6 /* libPods-MixPanelTiming.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MixPanelTiming.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E519523D1F1A3E5168D5C7F /* Pods-MixPanelTiming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixPanelTiming.release.xcconfig"; path = "Pods/Target Support Files/Pods-MixPanelTiming/Pods-MixPanelTiming.release.xcconfig"; sourceTree = "<group>"; };
+		8672F9AFE74843B47F1B70FB /* Pods-MixPanelTimingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixPanelTimingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MixPanelTimingTests/Pods-MixPanelTimingTests.release.xcconfig"; sourceTree = "<group>"; };
+		8FE8E04B490E13116068AD44 /* Pods-MixPanelTiming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixPanelTiming.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MixPanelTiming/Pods-MixPanelTiming.debug.xcconfig"; sourceTree = "<group>"; };
+		AFB40CDF7A52D335415C422A /* Pods-MixPanelTimingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixPanelTimingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MixPanelTimingUITests/Pods-MixPanelTimingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E4C61BDADE8B2AF8A6C02778 /* Pods-MixPanelTimingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixPanelTimingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MixPanelTimingUITests/Pods-MixPanelTimingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F41CA7C71E7AD6A400263F69 /* MixPanelTiming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixPanelTiming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41CA7CB1E7AD6A400263F69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F41CA7CD1E7AD6A400263F69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA35FAD047BF6D3AE966766 /* libPods-MixPanelTiming.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A14DF9BF0B8133F3C37C98D /* libPods-MixPanelTimingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F462172B57A2D6DDCB0F3D6 /* libPods-MixPanelTimingUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0374FE2B1CADD9F934DF6BCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7600D72EA41D6414DB7F12A6 /* libPods-MixPanelTiming.a */,
+				46658B7C2C47D0E500BF8BC2 /* libPods-MixPanelTimingTests.a */,
+				68142C37A0D1982C15DEBB46 /* libPods-MixPanelTimingUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56919DFCC4A63ECD1F7383E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FE8E04B490E13116068AD44 /* Pods-MixPanelTiming.debug.xcconfig */,
+				7E519523D1F1A3E5168D5C7F /* Pods-MixPanelTiming.release.xcconfig */,
+				48672BD693BD37709F01DCBE /* Pods-MixPanelTimingTests.debug.xcconfig */,
+				8672F9AFE74843B47F1B70FB /* Pods-MixPanelTimingTests.release.xcconfig */,
+				E4C61BDADE8B2AF8A6C02778 /* Pods-MixPanelTimingUITests.debug.xcconfig */,
+				AFB40CDF7A52D335415C422A /* Pods-MixPanelTimingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F41CA7BE1E7AD6A400263F69 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +125,8 @@
 				F41CA7E61E7AD6A400263F69 /* MixPanelTimingTests */,
 				F41CA7F11E7AD6A400263F69 /* MixPanelTimingUITests */,
 				F41CA7C81E7AD6A400263F69 /* Products */,
+				56919DFCC4A63ECD1F7383E2 /* Pods */,
+				0374FE2B1CADD9F934DF6BCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F41CA7F71E7AD6A400263F69 /* Build configuration list for PBXNativeTarget "MixPanelTiming" */;
 			buildPhases = (
+				A3560A78DF5A152CD732DCF3 /* [CP] Check Pods Manifest.lock */,
 				F41CA7C31E7AD6A400263F69 /* Sources */,
 				F41CA7C41E7AD6A400263F69 /* Frameworks */,
 				F41CA7C51E7AD6A400263F69 /* Resources */,
+				78353CE1BAC123596EC63D15 /* [CP] Embed Pods Frameworks */,
+				F7659F6DE195893272F385B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F41CA7FA1E7AD6A400263F69 /* Build configuration list for PBXNativeTarget "MixPanelTimingTests" */;
 			buildPhases = (
+				25A2F8BA55ACFB86FB3ADBAE /* [CP] Check Pods Manifest.lock */,
 				F41CA7DF1E7AD6A400263F69 /* Sources */,
 				F41CA7E01E7AD6A400263F69 /* Frameworks */,
 				F41CA7E11E7AD6A400263F69 /* Resources */,
+				C7FFDEF69ABA8F11FC5FAC35 /* [CP] Embed Pods Frameworks */,
+				C6FB5C7E36C0B6D9DF7073CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F41CA7FD1E7AD6A400263F69 /* Build configuration list for PBXNativeTarget "MixPanelTimingUITests" */;
 			buildPhases = (
+				2FA7C6A887590B484B1E5969 /* [CP] Check Pods Manifest.lock */,
 				F41CA7EA1E7AD6A400263F69 /* Sources */,
 				F41CA7EB1E7AD6A400263F69 /* Frameworks */,
 				F41CA7EC1E7AD6A400263F69 /* Resources */,
+				D518A27DEF0A39CAA8B838A1 /* [CP] Embed Pods Frameworks */,
+				CE5E496A6CDECB7DB7404561 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,7 +259,13 @@
 				TargetAttributes = {
 					F41CA7C61E7AD6A400263F69 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YMFV3LN3PD;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					F41CA7E21E7AD6A400263F69 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -270,6 +325,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25A2F8BA55ACFB86FB3ADBAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2FA7C6A887590B484B1E5969 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78353CE1BAC123596EC63D15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixPanelTiming/Pods-MixPanelTiming-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3560A78DF5A152CD732DCF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6FB5C7E36C0B6D9DF7073CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixPanelTimingTests/Pods-MixPanelTimingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7FFDEF69ABA8F11FC5FAC35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixPanelTimingTests/Pods-MixPanelTimingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE5E496A6CDECB7DB7404561 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixPanelTimingUITests/Pods-MixPanelTimingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D518A27DEF0A39CAA8B838A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixPanelTimingUITests/Pods-MixPanelTimingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7659F6DE195893272F385B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixPanelTiming/Pods-MixPanelTiming-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F41CA7C31E7AD6A400263F69 /* Sources */ = {
@@ -426,9 +619,12 @@
 		};
 		F41CA7F81E7AD6A400263F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE8E04B490E13116068AD44 /* Pods-MixPanelTiming.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMFV3LN3PD;
 				INFOPLIST_FILE = MixPanelTiming/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = picokapp.MixPanelTiming;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,9 +633,12 @@
 		};
 		F41CA7F91E7AD6A400263F69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E519523D1F1A3E5168D5C7F /* Pods-MixPanelTiming.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMFV3LN3PD;
 				INFOPLIST_FILE = MixPanelTiming/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = picokapp.MixPanelTiming;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +647,7 @@
 		};
 		F41CA7FB1E7AD6A400263F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48672BD693BD37709F01DCBE /* Pods-MixPanelTimingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MixPanelTimingTests/Info.plist;
@@ -460,6 +660,7 @@
 		};
 		F41CA7FC1E7AD6A400263F69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8672F9AFE74843B47F1B70FB /* Pods-MixPanelTimingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MixPanelTimingTests/Info.plist;
@@ -472,6 +673,7 @@
 		};
 		F41CA7FE1E7AD6A400263F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C61BDADE8B2AF8A6C02778 /* Pods-MixPanelTimingUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MixPanelTimingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -483,6 +685,7 @@
 		};
 		F41CA7FF1E7AD6A400263F69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB40CDF7A52D335415C422A /* Pods-MixPanelTimingUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MixPanelTimingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -511,6 +714,7 @@
 				F41CA7F91E7AD6A400263F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F41CA7FA1E7AD6A400263F69 /* Build configuration list for PBXNativeTarget "MixPanelTimingTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +723,7 @@
 				F41CA7FC1E7AD6A400263F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F41CA7FD1E7AD6A400263F69 /* Build configuration list for PBXNativeTarget "MixPanelTimingUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +732,7 @@
 				F41CA7FF1E7AD6A400263F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

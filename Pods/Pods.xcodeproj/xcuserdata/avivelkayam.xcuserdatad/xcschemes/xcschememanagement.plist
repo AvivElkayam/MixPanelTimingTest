@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Mixpanel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MixPanelTiming.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MixPanelTimingTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MixPanelTimingUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>281DD824D177B87E0F4BAEC64E151B32</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A569A54EA537B93E486B50BCC2F18A0D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CACB278EAA5FC399EC8C46D95F31CB2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E646283A39E2ABA10949478B76C13751</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
